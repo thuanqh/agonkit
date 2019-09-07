@@ -1,0 +1,30 @@
+{
+  "name": "agonkit",
+  "version": "1.0.1",
+  "description": "Agon UI Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://huuthuan@github.com/thuanqh/agonkit.git"
+  },
+  "keywords": [
+    "agon",
+    "react",
+    "styled-components",
+    "styled-system"
+  ],
+  "author": "Jason Quach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thuanqh/agonkit/issues"
+  },
+  "homepage": "https://github.com/thuanqh/agonkit#readme",
+  "dependencies": {
+    "@styled-system/prop-types": "^5.1.1",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.1"
+  }
+}
