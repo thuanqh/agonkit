@@ -1,11 +1,11 @@
 {
   "name": "agonkit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Agon UI Kit",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rm -rf .cache dist node_modules package-lock.json package.lock",
-    "build": "parcel build ./src/index.js --target node",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,8 +34,7 @@
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.12.3"
+    "@babel/preset-react": "^7.0.0"
   },
   "files": [
     "dist/*"
