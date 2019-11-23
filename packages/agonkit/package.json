@@ -1,0 +1,41 @@
+{
+  "name": "agonkit",
+  "version": "1.0.5",
+  "description": "Agon UI Design System",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf .cache dist node_modules package-lock.json package.lock",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://huuthuan@github.com/thuanqh/agonkit.git"
+  },
+  "keywords": [
+    "agonkit",
+    "react",
+    "styled-components",
+    "styled-system"
+  ],
+  "author": "Jason Quach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thuanqh/agonkit/issues"
+  },
+  "homepage": "https://github.com/thuanqh/agonkit#readme",
+  "peerDependencies": {
+    "@styled-system/prop-types": "^5.1.1",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
