@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "Agon UI Design System",
   "main": "dist/index.js",
+  "module": "src/index.js",
   "scripts": {
     "clean": "rm -rf .cache dist node_modules package-lock.json package.lock",
     "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
