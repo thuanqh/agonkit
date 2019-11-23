@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf node_modules package-lock.json package.lock lerna-debug.log",
+    "clean": "rm -rf node_modules .jest-* package-lock.json package.lock lerna-debug.log",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "publish": "lerna publish",
     "dev": "start-storybook -p 5555",
