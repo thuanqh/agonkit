@@ -1,6 +1,6 @@
 {
   "name": "agonkit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Agon UI Design System",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://huuthuan@github.com/thuanqh/agonkit.git"
+    "url": "git+https://thuanqh@github.com/thuanqh/agonkit.git"
   },
   "keywords": [
     "agonkit",
