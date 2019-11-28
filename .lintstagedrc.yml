@@ -1,0 +1,5 @@
+linters:
+  packages/agonkit/*.js:
+    - eslint --fix
+    - git add
+
