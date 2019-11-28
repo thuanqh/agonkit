@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import {
   compose,
   space,
@@ -14,14 +14,14 @@ import {
   textStyle,
   colorStyle,
   buttonStyle
-} from "styled-system";
-import propTypes from "@styled-system/prop-types";
+} from 'styled-system';
+import propTypes from '@styled-system/prop-types';
 
 const themed = key => props => props.theme[key];
 
-export const Box = styled("div")(
+export const Box = styled('div')(
   {
-    boxSizing: "border-box",
+    boxSizing: 'border-box',
     minWidth: 0
   },
   compose(
@@ -39,7 +39,7 @@ export const Box = styled("div")(
     colorStyle,
     buttonStyle
   ),
-  themed("Box")
+  themed('Box')
 );
 
 Box.propTypes = {

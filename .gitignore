@@ -8,6 +8,8 @@ yarn-error.log
 lerna-debug.log
 
 .cache
+.jest-*
+__snapshots__
 node_modules
 public
 dist
