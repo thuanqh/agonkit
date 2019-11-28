@@ -54,5 +54,10 @@
     "stylelint-processor-styled-components": "^1.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
